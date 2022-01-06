@@ -1,0 +1,57 @@
+h3{
+    text-align: center;
+    color: blue;
+}
+
+#main{
+    background-color: whitesmoke;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+#alert{
+    color: #72353D;  
+    background-color: #EAD2D5;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 1.5em;
+}
+
+.divs{
+    padding: 20px;
+    width: 40%;
+    border-radius: 50px;
+    border-color: black;
+    border: 1px;
+    transform: rotate(90deg);
+
+}
+
+#rojo {
+    animation-name: cambiaRojo;
+    animation: cambiaRojo 5s infinite;
+}
+@keyframes cambiaRojo {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: blue;
+    }
+ }
+
+ #azul {
+    animation-name: cambiaAzul;
+    animation: cambiaAzul 5s infinite;
+}
+@keyframes cambiaAzul {
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: red;
+    }
+ }
